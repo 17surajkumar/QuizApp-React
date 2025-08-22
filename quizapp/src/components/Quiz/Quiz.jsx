@@ -17,6 +17,7 @@ const Quiz = () => {
   let option_array = [Option1, Option2, Option3, Option4];
 
   //Here using lock we cannot choose more than two options
+  //Checkin Answer Function
   const checkAns = (e, ans) => {
     if (lock == false) {
       if (question.ans == ans) {
